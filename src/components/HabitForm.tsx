@@ -4,7 +4,7 @@ import { z } from "zod";
 import { toast } from "sonner";
 import { supabase } from "@/integrations/supabase/client";
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
-import { NbButton, NbInput, NbTextarea, NB_TONES, NB_HEX, hexToTone, type NbTone } from "@/components/nb";
+import { NbButton, NbInput, NbTextarea, NB_TONES, NB_HEX, hexToTone, type NbTone } from "@/components/design-system";
 import type { Habit, Category } from "@/lib/queries";
 import { cn } from "@/lib/utils";
 

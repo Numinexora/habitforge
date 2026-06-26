@@ -6,7 +6,7 @@ import { z } from "zod";
 import { toast } from "sonner";
 import { supabase } from "@/integrations/supabase/client";
 import { categoriesQuery, habitsQuery } from "@/lib/queries";
-import { NbButton, NbCard, NbInput, NB_TONES, NB_HEX, hexToTone, type NbTone } from "@/components/nb";
+import { NbButton, NbCard, NbInput, NB_TONES, NB_HEX, hexToTone, type NbTone } from "@/components/design-system";
 import { cn } from "@/lib/utils";
 
 export const Route = createFileRoute("/_authenticated/categories")({

@@ -2,7 +2,7 @@ import { Link, useNavigate, useRouterState } from "@tanstack/react-router";
 import { Flame, LayoutDashboard, BarChart3, FolderOpen, LogOut } from "lucide-react";
 import { useQueryClient } from "@tanstack/react-query";
 import { supabase } from "@/integrations/supabase/client";
-import { NbButton } from "@/components/nb";
+import { NbButton } from "@/components/design-system";
 import { cn } from "@/lib/utils";
 
 const items = [

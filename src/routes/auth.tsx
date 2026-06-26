@@ -4,8 +4,7 @@ import { z } from "zod";
 import { Flame } from "lucide-react";
 import { toast } from "sonner";
 import { supabase } from "@/integrations/supabase/client";
-import { NbButton, NbCard, NbInput } from "@/components/nb";
-
+import { NbButton, NbCard, NbInput } from "@/components/design-system";
 export const Route = createFileRoute("/auth")({
   ssr: false,
   head: () => ({

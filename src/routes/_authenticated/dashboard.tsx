@@ -4,7 +4,7 @@ import { useSuspenseQuery } from "@tanstack/react-query";
 import { Plus, Search, Sparkles } from "lucide-react";
 import { habitsQuery, categoriesQuery, checkinsQuery, type Habit } from "@/lib/queries";
 import { lastNDays } from "@/lib/streak";
-import { NbButton, NbCard, NbInput, NbBadge } from "@/components/nb";
+import { NbButton, NbCard, NbInput, NbBadge } from "@/components/design-system";
 import { HabitCard } from "@/components/HabitCard";
 import { HabitForm } from "@/components/HabitForm";
 import { cn } from "@/lib/utils";

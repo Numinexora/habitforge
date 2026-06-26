@@ -2,7 +2,7 @@ import { useMutation, useQueryClient } from "@tanstack/react-query";
 import { Check, Flame, Pencil, Trash2 } from "lucide-react";
 import { toast } from "sonner";
 import { supabase } from "@/integrations/supabase/client";
-import { NbCard, NbButton, NbBadge, hexToTone } from "@/components/nb";
+import { NbCard, NbButton, NbBadge, hexToTone } from "@/components/design-system";
 import type { Habit, Category, Checkin } from "@/lib/queries";
 import { computeStreaks, todayISO, lastNDays } from "@/lib/streak";
 import { cn } from "@/lib/utils";

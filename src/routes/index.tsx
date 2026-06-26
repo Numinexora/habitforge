@@ -1,6 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { Flame, Calendar, BarChart3, Target, Sparkles } from "lucide-react";
-import { NbButton, NbCard, NbBadge } from "@/components/nb";
+import { NbButton, NbCard, NbBadge } from "@/components/design-system";
 
 export const Route = createFileRoute("/")({
   head: () => ({

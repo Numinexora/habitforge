@@ -6,7 +6,7 @@ import { format, parseISO } from "date-fns";
 import { Flame, TrendingUp, CheckCircle2, Target } from "lucide-react";
 import { habitsQuery, categoriesQuery, checkinsQuery } from "@/lib/queries";
 import { lastNDays, computeStreaks, todayISO } from "@/lib/streak";
-import { NbCard, NbBadge, hexToTone } from "@/components/nb";
+import { NbCard, NbBadge, hexToTone } from "@/components/design-system";
 import { Heatmap } from "@/components/Heatmap";
 import { cn } from "@/lib/utils";
 
